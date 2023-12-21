@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+@keyframes titleanim {
+    0% {
+        opacity: 0%;
+        margin-top: 150px;
+    }
+    100% {
+        opacity: 100%;
+        margin-top: 200px;
+    }
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -48,6 +61,7 @@ html, body {
 .users, .apply {
     color: #fff;
     font: 400 36px Comfortaa, sans-serif;
+    padding-right: 100px;
 }
 
 .divider {
@@ -60,4 +74,16 @@ html, body {
     .divider {
         max-width: 100%;
     }
+}
+
+.vnc {
+    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    animation: titleanim;
+    animation-duration: 1.3s;
 }
