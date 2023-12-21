@@ -117,10 +117,11 @@ html, body {
     background-color: #1e1e2e;
     border: 2px solid #313244;
     border-radius: 20px; /* Rounded corners */
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: -35px; /* Half of the height */
+    margin-left: -90px; /* Half of the width */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,4 +130,3 @@ html, body {
     animation-delay: 0.9s;
     animation-fill-mode: forwards;
 }
-
