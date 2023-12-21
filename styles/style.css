@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+@keyframes all {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 @keyframes titleanim {
     0% {
         opacity: 0%;
@@ -15,6 +24,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #181825;
+
 }
 
 .main-container {
@@ -86,4 +96,6 @@ html, body {
     margin-top: 200px;
     animation: titleanim;
     animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1;
 }
