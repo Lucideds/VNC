@@ -16,7 +16,11 @@ html, body {
     padding: 10px 15px; /* Adjust padding as needed */
     width: 100%;
     box-sizing: border-box; /* Include padding and border in the element's total width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 @media (max-width: 991px) {
     .header {
