@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #181825;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1e1e2e;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px; /* Adjust padding as needed */
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+@media (max-width: 991px) {
+    .header {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding-right: 20px;
+    }
+}
+
+.img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 75px;
+    max-width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.users, .apply {
+    color: #fff;
+    font: 400 36px Comfortaa, sans-serif;
+}
+
+.divider {
+    background-color: #313244;
+    min-height: 2px;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .divider {
+        max-width: 100%;
+    }
+}
